@@ -10,6 +10,7 @@
     <meta property="og:title" content="Applinks Android"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="http://asim019.github.io/applink.html">
+    <meta property="al:web:url" content="http://asim019.github.io"/>
     <meta property="al:web:should_fallback" content="true"/>
     <title>Android Applinks by asim</title>
 
@@ -17,6 +18,7 @@
 	function getURLParameter(name) {
 	  return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
 	}
+
 
     </script>
 </head>
@@ -28,6 +30,7 @@
 			window.location.replace(url);
 		else
 			window.location.replace("http://asim019.github.io/index.html")
+
 
 </script>
 
